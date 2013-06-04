@@ -1,0 +1,250 @@
+/* Accessable NYC by Eddie Flores. Brooklyn, 2013. */
+
+
+#mainMenu {
+  z-index: 10000;
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#mainMenu ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  background: white;
+  border: 1px solid #ebebeb;
+  -webkit-box-shadow: 3px 4px 11px -1px rgba(0,0,0,0.1);
+  -webkit-border-radius: 5px 5px 0px 0px;
+}
+
+#mainMenu li {
+  padding: 15px;
+  width: 200px;
+  color: #333333;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid #ebebeb;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+#mainMenu li:hover {
+  background: #ebebeb;
+  cursor: pointer;
+}
+
+#mainMenu li:last-child {
+  border-bottom: 0px;
+}
+
+
+/* jqm overrides */
+
+.ui-corner-all {
+  -webkit-border-radius: 5px;
+}
+
+.ui-btn-hover-c {
+  background: #ffffff;
+  color: #333;
+  border: 1px solid #ebebeb;
+}
+
+.ui-btn-active {
+  background: #ffffff !important;
+  color: #333333 !important;
+}
+
+.ui-btn-up-c {
+  background: #f2f2f2;
+  border-left: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px solid white;
+  background-image: none;
+  text-shadow: 2px 2px 0px white;
+  color: #333333;
+}
+
+.ui-body-c {
+  background: #f8f8f8;
+  border: 1px solid #ebebeb;
+}
+
+.container {
+  background: #FBFBFB url('images/bg.png');
+}
+
+.dark-flat {
+  background: #333333;
+  border-top: 1px solid #101010;
+  border-bottom: 1px solid #101010;
+}
+
+.sub-container {
+  display: block;
+  float: left;
+  padding: 0px;
+  /*margin: 20px 0px;*/
+  border: none;
+}
+
+.sub-container li {
+  list-style: none;
+  display: inline;
+  margin-bottom: 2px;
+}
+
+.refresh {
+
+}
+
+.ui-btn-right {
+  margin-top: 5px !important;
+}
+
+.time-status {
+  font-size: 14px !important;
+  text-align: center;
+}
+
+.info {
+  background: #308FFF;
+  text-shadow: 2px 2px 0px #2E88F2;
+  border: 1px solid #2E88F2;
+}
+
+.success {
+  background: #2BD382;
+  text-shadow: 2px 2px 0px #29C77B;
+  border: 1px solid #29C77B;
+}
+
+.announce {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  -webkit-border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+}
+
+.brand {
+  font-family: "BebasNeueRegular";
+  font-size: 24px !important;
+  font-weight: normal;
+  text-shadow: 0px 1px 0px black;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.notice {
+  clear: both;
+}
+
+.notice div h3 {
+  text-transform: capitalize;
+}
+
+.line {
+  background: #ebebeb;
+  border: 1px solid #ffffff;
+  text-shadow: 1px 2px 0px #ffffff;
+  color: #b9b9b9;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 2px;
+  padding-top: 15px;
+  width: 50px;
+  height: 35px;
+  -webkit-border-radius: 5px;
+}
+
+.n, .q, .r {
+  background: #FCCC0A;
+  background: -webkit-radial-gradient(center, ellipse cover, #FCCC0A 0%, #f0c20a 100%);
+  color: #ffffff;
+  border: 1px solid #E3B709;
+  text-shadow: 2px 2px 0px #E3B709;
+}
+
+.a, .c, .e {
+  background: #2850AD;
+  background: -webkit-radial-gradient(center, ellipse cover, #2850AD 0%, #254AA1 100%);
+  color: #ffffff;
+  border: 1px solid #224494;
+  text-shadow: 2px 2px 0px #224494;
+}
+
+.b, .d, .f, .m {
+  background: #FF6319;
+  background: -webkit-radial-gradient(center, ellipse cover, #FF6319 0%, #F25E18 100%);
+  color: #ffffff;
+  border: 1px solid #E35817;
+  text-shadow: 2px 2px 0px #E35817;
+}
+
+.g {
+  background: #6CBE45;
+  background: -webkit-radial-gradient(center, ellipse cover, #6CBE45 0%, #65B341 100%);
+  color: #ffffff;
+  border: 1px solid #5EA63C;
+  text-shadow: 2px 2px 0px #5EA63C;
+}
+
+.j, .z {
+  background: #996633;
+  background: -webkit-radial-gradient(center, ellipse cover, #996633 0%, #8C5E2F 100%);
+  color: #ffffff;
+  border: 1px solid #80562B;
+  text-shadow: 2px 2px 0px #80562B;
+}
+
+.l {
+  background: #A7A9AC;
+  background: -webkit-radial-gradient(center, ellipse cover, #A7A9AC 0%, #9A9B9E 100%);
+  color: #ffffff;
+  border: 1px solid #8E8F91;
+  text-shadow: 2px 2px 0px #8E8F91;
+}
+
+.s {
+  background: #808183;
+  background: -webkit-radial-gradient(center, ellipse cover, #808183 0%, #9A9B9E 100%);
+  color: #ffffff;
+  border: 1px solid #8B8C8F;
+  text-shadow: 2px 2px 0px #8B8C8F;
+}
+
+[class='line 1'], [class='line 2'], [class='line 3'] {
+  background: #EE352E;
+  background: -webkit-radial-gradient(center, ellipse cover, #EE352E 0%, #E0322B 100%);
+  color: #ffffff;
+  border: 1px solid #D42F29;
+  text-shadow: 2px 2px 0px #D42F29;
+}
+
+[class='line 4'], [class='line 5'], [class='line 6'] {
+  background: #00933C;
+  background: -webkit-radial-gradient(center, ellipse cover, #00933C 0%, #008737 100%);
+  color: #ffffff;
+  border: 1px solid #007A32;
+  text-shadow: 2px 2px 0px #007A32;
+}
+
+[class='line 7']{
+  background: #B933AD;
+  background: -webkit-radial-gradient(center, ellipse cover, #B933AD 0%, #AD30A2 100%);
+  color: #ffffff;
+  border: 1px solid #A12D96;
+  text-shadow: 2px 2px 0px #A12D96;
+}
